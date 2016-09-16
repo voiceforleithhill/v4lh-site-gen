@@ -7,4 +7,4 @@ author:     "Voice for Leith Hill"
 header-img: "img/leith-hill-place.png"
 ---
 
-<img src="{{ site.baseurl }}/img/VFLH-NT-VERSION14.jpg" alt="Bring a Picnic Day">
+<img src="{{ site.baseurl }}/img/pics/VFLH-NT-VERSION14.jpg" alt="Bring a Picnic Day">
