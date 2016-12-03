@@ -5,7 +5,7 @@
 
 body {
 	.serif;
-	font-size: 20px;
+	font-size: 16px;
 	color: @gray-dark;
 }
 
@@ -13,7 +13,7 @@ body {
 
 p {
 	line-height: 1.5;
-	margin: 30px 0;
+	margin: 20px 0;
 	a {
 		text-decoration: underline;
 	}
@@ -37,6 +37,10 @@ a {
 	}
 }
 
+a.submission {
+	font-weight: 600;
+}
+
 a img {
 	&:hover,
 	&:focus {
@@ -52,19 +56,19 @@ blockquote {
 hr.small {
 	max-width: 100px;
 	margin: 15px auto;
-	border-width: 4px;
+	border-width: 2px;
 	border-color: white;
 }
 
+em.approved {
+	color: #f00;
+}
 // Navigation
 
 .navbar-custom {
-	background: white;
-	position: absolute;
-	top: 0;
-	left: 0;
+	background: #726585;
+	min-height: 20px;
 	width: 100%;
-	z-index: 3;
 	.sans-serif;
 	.navbar-brand {
 		font-weight: 800;
@@ -72,18 +76,25 @@ hr.small {
 	.nav {
 		li {
 			a {
+				color: #ddd;
 				text-transform: uppercase;
-				font-size: 12px;
-				font-weight: 800;
+				font-size: 15px;
+				font-weight: 600;
 				letter-spacing: 1px;
 			}
 		}
 	}
+	.navbar-nav {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+	}
+	.navbar-collapse {
+	  text-align: center;
+	}
 	@media only screen and (min-width: 768px) {
-		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: white;
 			padding: 20px;
 			&:hover,
 			&:focus {
@@ -93,63 +104,13 @@ hr.small {
 		.nav {
 			li {
 				a {
-					color: white;
-					padding: 20px;
+					padding: 3px 45px;
 					&:hover,
 					&:focus {
 						color: @white-faded;
 					}
 				}
 			}
-		}
-	}
-	@media only screen and (min-width: 1170px) {
-		-webkit-transition: background-color 0.3s;
-		-moz-transition: background-color 0.3s;
-		transition: background-color 0.3s;
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translate3d(0, 0, 0);
-		-moz-transform: translate3d(0, 0, 0);
-		-ms-transform: translate3d(0, 0, 0);
-		-o-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-		&.is-fixed {
-			/* when the user scrolls down, we hide the header right above the viewport */
-			position: fixed;
-			top: -61px;
-			background-color: fade(white, 90%);
-			border-bottom: 1px solid darken(white, 5%);
-			-webkit-transition: -webkit-transform 0.3s;
-			-moz-transition: -moz-transform 0.3s;
-			transition: transform 0.3s;
-			.navbar-brand {
-				color: @gray-dark;
-				&:hover,
-				&:focus {
-					color: @brand-primary;
-				}
-			}
-			.nav {
-				li {
-					a {
-						color: @gray-dark;
-						&:hover,
-						&:focus {
-							color: @brand-primary;
-						}
-					}
-				}
-			}
-		}
-		&.is-visible {
-			/* if the user changes the scrolling direction, we show the header */
-			-webkit-transform: translate3d(0, 100%, 0);
-			-moz-transform: translate3d(0, 100%, 0);
-			-ms-transform: translate3d(0, 100%, 0);
-			-o-transform: translate3d(0, 100%, 0);
-			transform: translate3d(0, 100%, 0);
 		}
 	}
 }
@@ -162,15 +123,11 @@ hr.small {
 	background-attachment: scroll;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
-	margin-bottom: 50px;
 	.site-heading,
 	.post-heading,
 	.page-heading {
-		padding: 100px 0 50px;
 		color: white;
-		@media only screen and (min-width: 768px) {
-			padding: 150px 0;
-		}
+		padding: 30px 0 20px;
 	}
 	.site-heading,
 	.page-heading {
@@ -180,17 +137,12 @@ hr.small {
 			font-size: 50px;
 		}
 		.subheading {
-			font-size: 24px;
+			font-size: 20px;
 			line-height: 1.1;
 			display: block;
 			.sans-serif;
-			font-weight: 300;
+			font-weight: 400;
 			margin: 10px 0 0;
-		}
-		@media only screen and (min-width: 768px) {
-			h1 {
-				font-size: 70px;
-			}
 		}
 	}
 	.post-heading {
@@ -217,14 +169,6 @@ hr.small {
 				color: white;
 			}
 		}
-		@media only screen and (min-width: 768px) {
-			h1 {
-				font-size: 55px;
-			}
-			.subheading {
-				font-size: 30px;
-			}
-		}
 	}
 }
 
@@ -239,11 +183,12 @@ hr.small {
 			color: @brand-primary;
 		}
 		> .post-title {
-			font-size: 30px;
-			margin-top: 30px;
-			margin-bottom: 10px;
+			font-size: 26px;
+			margin-top: 20px;
+			margin-bottom: 8px;
 		}
 		> .post-subtitle {
+			font-size: 18px;
 			margin: 0;
 			font-weight: 300;
 			margin-bottom: 10px;
@@ -251,7 +196,7 @@ hr.small {
 	}
 	> .post-meta {
 		color: @gray;
-		font-size: 18px;
+		font-size: 12px;
 		font-style: italic;
 		margin-top: 0;
 		> a {
@@ -264,13 +209,6 @@ hr.small {
 			}
 		}
 	}
-	@media only screen and (min-width: 768px) {
-		> a {
-			> .post-title {
-				font-size: 36px;
-			}
-		}
-	}
 }
 
 .video {
@@ -279,6 +217,12 @@ hr.small {
 			font-size: 36px;
 		}
 	}
+}
+
+.avplayer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 // Sections
@@ -301,7 +245,7 @@ hr.small {
 }
 
 footer {
-	padding: 50px 0 65px;
+	padding: 0 0 20px 0;
 	.list-inline {
 		margin: 0;
 		padding: 0;
@@ -310,6 +254,15 @@ footer {
 		font-size: 14px;
 		text-align: center;
 		margin-bottom: 0;
+	}
+}
+
+.resource {
+	margin-left: auto;
+	margin-right: auto;
+	a img {
+		margin: 20px;
+		display: inline-block;
 	}
 }
 
@@ -468,4 +421,9 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: @brand-primary;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
 }
