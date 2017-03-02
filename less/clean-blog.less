@@ -29,6 +29,21 @@ h6 {
 	font-weight: 600;
 }
 
+h3.promo {
+	color: #6633aa;
+	text-align: center;
+	border: 2px solid #726585;
+	border-radius: 10px;
+	margin: 6px 100px 35px;
+	padding: 6px;
+}
+
+h3.promo a {
+	color: #6633aa;
+	font-style: italic;
+	font-weight: bold;
+}
+
 a {
 	color: @gray-dark;
 	&:hover,
@@ -41,13 +56,17 @@ a.submission {
 	font-weight: 600;
 }
 
-a img {
-	&:hover,
-	&:focus {
-		cursor: zoom-in;
-	}
+a.logo.r {
+  float: right;
+  margin: 20px;
 }
-
+a.logo.l {
+  float: left;
+  margin: 20px;
+}
+a.post {
+	text-decoration: underline;
+}
 blockquote {
 	color: @gray;
 	font-style: italic;
@@ -153,6 +172,7 @@ em.approved {
 		}
 	}
 	.post-heading {
+		text-align: center;
 		h1 {
 			font-size: 35px;
 		}
