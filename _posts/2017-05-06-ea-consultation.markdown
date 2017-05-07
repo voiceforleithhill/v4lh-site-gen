@@ -2,7 +2,7 @@
 layout:     post
 title:      "EA Consultation Open - 10 Days Left!!"
 subtitle:   "Consultation Briefing and Guidance on Submitting rReplies"
-date:       2017-05-06 23:12:04
+date:       2017-05-06 21:12:04
 author:     "Voice for Leith Hill"
 header-img: "img/banner.jpg"
 ---
