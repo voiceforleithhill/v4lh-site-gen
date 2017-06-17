@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "EA Consultation - Closing Soon"
+title:      "EA Consultation - [update: Now Closed]"
 subtitle:   "Consultation Briefing and Guidance on Submitting Replies"
 date:       2017-05-06 21:12:04
 author:     "Voice for Leith Hill"
