@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      "T-Shirts are here!"
+subtitle:   "Get yourself a lovely Voice For Leith Hill T-Shirt!!"
+date:       2017-09-26 21:14:04
+author:     "Voice for Leith Hill"
+header-img: "img/banner.jpg"
+---
+
+{% include t-shirts.html %}
