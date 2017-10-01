@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Leith Hill Picnic Invitation!"
+title:      "Leith Hill Picnic Invitation"
 subtitle:   "Your invitation to Leith Hill Community Picnic!!"
 date:       2017-09-10 11:14:04
 author:     "Voice for Leith Hill"
