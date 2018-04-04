@@ -2,7 +2,7 @@
 layout:     post
 title:      "David Smythe EA report now submitted"
 subtitle:   "The 57 page full technical analysis is also available online"
-date:       2018-03-23 20:24:35
+date:       2018-04-03 21:22:35
 author:     "Voice for Leith Hill"
 header-img: "img/banner.jpg"
 ---
