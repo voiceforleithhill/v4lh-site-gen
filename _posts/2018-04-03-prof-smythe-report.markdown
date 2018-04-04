@@ -13,4 +13,4 @@ header-img: "img/banner.jpg"
 
 David Smythe's report for AVFLH to the Environment Agency is a 57 page full technical analysis that will enable the EA reach an informed decision on Europa's Permit application. [You can download it here.](/rescources/Smythe-EA-Europa-Consultation-Submission-v1_3r.pdf)
 
-Please also see [our JustGiving crowdfunding page](https://www.justgiving.com/crowdfunding/voiceforleithhill).
+Please also see [our JustGiving crowdfunding page](https://www.justgiving.com/crowdfunding/voiceforleithhill). We now just need to find the final £200!!
