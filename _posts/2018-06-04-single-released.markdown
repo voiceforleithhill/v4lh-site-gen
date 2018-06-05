@@ -18,7 +18,7 @@ The Dorking-based community band was formed to promote awareness of the oil dril
 
 The single was written and recorded on a [hand-made lap guitar](http://www.leithhillblues.co.uk/tree-guitar), crafted out of a hollow tree trunk by a local dad for his kids. Various drop-in events were then held around Dorking during which the community chorus was recorded. The results were mastered at a leading recording studio in London.
 
-The single is being released on Monday June 4th. Please see below for the accompanying music video. All funds raised will go towards the legal defence of the UKOG injunction case and other campaign initiatives.
+The single is being released on Monday June 4th with an accompanying music video (see below). All funds raised will go towards the legal defence of the UKOG injunction case and other campaign initiatives.
 
 For more information, see [the press media kit](http://www.leithhillblues.co.uk/media-kit) or contact <a href="mailto:sing@voiceforleithhill.co.uk">sing@voiceforleithhill.co.uk</a>.
 
